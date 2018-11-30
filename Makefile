@@ -1,7 +1,7 @@
 
-FILES=$(addprefix bin/main/, $(addsuffix .class, Teacher Student Test))
+FILES=$(addprefix bin/main/, $(addsuffix .class, Teacher Student Exam))
 
-TEST=$(addprefix bin/test/, $(addsuffix .class, TeacherTest StudentTest TestTest))
+TEST=$(addprefix bin/test/, $(addsuffix .class, TeacherTest StudentTest ExamTest))
 
 .PHONY: default makebin clean
 
